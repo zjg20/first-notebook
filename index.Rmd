@@ -1,0 +1,94 @@
+---
+title: "My first notebook"
+author: zjg
+date: 1 december 2022
+output:
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+
+<!-- challenge -->
+
+---
+title: 1,500 scientists lift the lid on reproducibility
+author: Monya Baker
+date: 25 May 2016
+---
+
+<!-- comment -->
+
+## Survey sheds light on the ‘crisis’ rocking research
+#### **More than 70% of researchers have tried and failed to reproduce another scientist's experiments**, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from *Nature's* survey of 1,576 researchers who took a brief online questionnaire on reproducibility in research.
+
+![](img/reproducibility-graphic-online1.jpeg)
+
+# The Survey
+
+In the survey [^2] respondents were asked to rate 11 different approaches to improving reproducibilty in science. Below is the list order by the most highly rated:
+
+* Better understanding of statistics
+* Better mentoring/supervision
+* More robust design
+* Better teaching
+* More within-lab validation
+* Incentives for better practice
+* Incentives for formal reproduction
+* More external-lab validation
+* More time for mentoring
+* Journals enforcing standards
+* More time checking notebooks
+
+[^2]:The survey can be downloaded [here](http://www.nature.com)
+
+# Heading 2 {#markdown-header}
+some text here
+
+## Heading 3
+more text here [this is the link](#markdown-header)
+
+This is a link to an [external website](http://www.google.com)
+
+This text has a footnote [^1]
+
+[^1]:This is my footnote
+
+
+1. Item 1
+2. Item 2
+3. Item 3
+    a. Item 3a
+        i.  Item 3ai
+        ii. Item 3aii
+    b. Item 3b
+    c. Item 3c
+4. Item 4
+
+- [ ] an unchecked task list item
+- [x] checked item
+
+
+#inserting images
+\
+![R logo](img/rlogo.png)
+
+\
+\
+I want to add a block here
+
+>here is my block
+
+```
+print("Hello world")
+x <- 1+2
+print(x)
+```
+
+
+
+
+
+
+
+
